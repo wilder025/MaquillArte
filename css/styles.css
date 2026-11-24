@@ -58,6 +58,8 @@ strong { font-weight: 500; }
   z-index: 50;
   background: var(--fondo);
   border-bottom: 1px solid var(--linea);
+  /* Sombra divisoria con la portada (y con el contenido al desplazarse) */
+  box-shadow: 0 16px 30px -14px rgba(12, 6, 16, .8);
 }
 
 .encabezado .contenedor {
