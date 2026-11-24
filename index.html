@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MaquillArte | Inicio</title>
+  <meta name="description" content="MaquillArte: la historia, el arte y el cuidado detrás del maquillaje.">
+  <link rel="icon" type="image/svg+xml" href="img/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="encabezado">
+    <div class="contenedor">
+      <a href="index.html" class="marca" aria-label="MaquillArte, ir al inicio">
+        <img src="img/logo.svg" alt="Logo de MaquillArte">
+        <span>
+          <span class="marca-nombre">Maquill<em>Arte</em></span>
+          <span class="marca-lema">Belleza con historia</span>
+        </span>
+      </a>
+
+      <button class="boton-menu" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-principal"><span></span></button>
+
+      <nav class="menu" id="menu-principal" aria-label="Menú principal">
+        <ul>
+          <li><a href="index.html" class="activo" aria-current="page">Inicio</a></li>
+          <li><a href="por-que-nos-maquillamos.html">Por qué nos maquillamos</a></li>
+          <li><a href="cuidado-personal.html">Cuidado personal</a></li>
+          <li><a href="#" data-talleres>Talleres</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="portada contenedor">
+      <span class="etiqueta">Bienvenida a MaquillArte</span>
+      <h1>El maquillaje es <em>arte, historia</em> y expresión</h1>
+      <p>Descubre de dónde vienen las tendencias que hoy amamos y cómo combinarlas para crear tu propio estilo.</p>
+      <div class="paleta" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </section>
+
+    <section class="seccion contenedor aparecer">
+      <article class="tarjeta">
+        <h2 class="titulo-seccion">
+          <span class="icono" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          </span>
+          La evolución del maquillaje
+        </h2>
+
+        <p class="texto-destacado">La evolución histórica del maquillaje demuestra que el pasado nunca desaparece del todo: vuelve reinterpretado. Hoy vemos cómo los labios rojos de los 50, los delineados gráficos de los 60 o la naturalidad de los 70 vuelven adaptados a estilos actuales. Conocer la evolución de la historia del maquillaje no solo ayuda a entender de dónde vienen estas tendencias, sino a combinarlas con libertad para crear looks personalizados. Además, la historia nos recuerda que el maquillaje siempre ha sido una herramienta de autoexpresión, más allá de cualquier canon, lo que permite que cada persona lo adapte según su identidad.</p>
+
+        <div class="referencia">
+          <strong>Referencia</strong>
+          <p class="apa">Maybelline. (s. f.). <em>Evolución del maquillaje</em>. <a href="https://www.maybelline.es/trucos-tutoriales/escuela-de-maquillaje/evolucion-del-maquillaje" target="_blank" rel="noopener">https://www.maybelline.es/trucos-tutoriales/escuela-de-maquillaje/evolucion-del-maquillaje</a></p>
+        </div>
+      </article>
+    </section>
+
+    <section class="seccion contenedor aparecer">
+      <article class="tarjeta">
+        <h2 class="titulo-seccion">
+          <span class="icono" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M10 9.5v5l4.5-2.5z" fill="currentColor"/></svg>
+          </span>
+          Recomendados
+        </h2>
+
+        <div class="video-marco">
+          <div class="video">
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/LgYsAsKsYkc?start=129&amp;end=150&amp;rel=0"
+              title="Video recomendado sobre la evolución del maquillaje"
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+
+        <p class="leyenda-video">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+          Ver desde el minuto: <span class="tiempo">2:09</span> hasta el <span class="tiempo">2:30</span>
+        </p>
+      </article>
+    </section>
+  </main>
+
+  <div class="aviso-fondo" role="dialog" aria-modal="true" aria-labelledby="aviso-titulo" aria-hidden="true">
+    <div class="aviso">
+      <div class="aviso-icono" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 3.5l6 6-9 9H5.5v-6z"/><path d="M12 6l6 6"/><path d="M3 21h7"/></svg>
+      </div>
+      <h2 id="aviso-titulo">Talleres</h2>
+      <p>En construcción...</p>
+      <button class="aviso-cerrar" type="button">Entendido</button>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
